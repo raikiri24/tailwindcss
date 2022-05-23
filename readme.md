@@ -38,19 +38,23 @@ To create your `tailwind.config.js` type:
 
    `root folder > src > input.css` (directory)
 
-   > `@tailwind base;`  
-   > `@tailwind components;`  
-   > `@tailwind utilities;`
+   > ```bash
+   >  @tailwind base;
+   >  @tailwind components;
+   >  @tailwind utilities;
+   > ```
 
 5. Start the Tailwind CLI build process  
    Run the CLI tool to scan your template files for classes and build your CSS
 
-   `npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+   ```bash
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+   ```
 
 6. Start using Tailwind in your HTML
    Add your compile CSS file to the `<head>` and start using Tailwind's utility classes to style your content.
 
-   ```
+   ```bash
    <!DOCTYPE html>
        <html lang="en">
        <head>
