@@ -82,10 +82,34 @@ Utilities for controlling the font family of an element
 | font-serif | font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;                                                                                                                                                     |
 | font-mono  | font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;                                                                                                              |
 
-> CHECK `Typography folder` to see the result.
-
 #### Basic usage
 
 ### Setting the font family
 
 You can control the typeface of text using the font family utilities
+
+```bash
+   <p class="font-sans">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-SANS)
+    </p>
+    <p class="font-serif">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-SERIF)
+    </p>
+    <p class="font-mono">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-MONO)
+    </p>
+```
+
+> CHECK `Typography/font-family.html` to see the result.
+
+Applyying conditionally
+
+#### Hover, focus, and other states
+
+Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:font-serif to only apply the font-serif utility on hover.
+
+```bash
+   <p class="font-sans hover:font-mono">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-SANS)
+    </p>
+```
