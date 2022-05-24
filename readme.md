@@ -82,6 +82,8 @@ Utilities for controlling the font family of an element
 | font-serif | font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;                                                                                                                                                     |
 | font-mono  | font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;                                                                                                              |
 
+> CHECK `Typography folder` to see the result.
+
 #### Basic usage
 
 ### Setting the font family
