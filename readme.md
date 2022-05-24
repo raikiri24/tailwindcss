@@ -21,7 +21,7 @@ To create your `tailwind.config.js` type:
    Add this line inside the module.exports
 
    `module.exports = {`
-   <span style="background-color: rgba(51, 110, 176, 0.5)"> `content: ["./src/**/*.{html,js}"]` </span>
+   <span style="background-color: rgba(51, 110, 176, 0.5)"> `content: ["./**/*.{html,js}"]` </span>
    `theme: { extend: {}, }, plugins: [], }`
 
 3. Create a folder named `src` then create a stylesheet named `input`.
@@ -66,6 +66,24 @@ To create your `tailwind.config.js` type:
        </head>
    ```
 
-## WE'RE NOW GOOD TO GO!
+WE'RE NOW GOOD TO GO!
 
-#### LET'S NOW EXPLORE HOW TO USE TAILWIND IN OUR PROJECTS
+LET'S NOW EXPLORE HOW TO USE TAILWIND IN OUR PROJECTS
+
+#### Typography
+
+### Font Family
+
+Utilities for controlling the font family of an element
+
+| Class      | Properties                                                                                                                                                                                                                    |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| font-sans  | font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; |
+| font-serif | font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;                                                                                                                                                     |
+| font-mono  | font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;                                                                                                              |
+
+#### Basic usage
+
+### Setting the font family
+
+You can control the typeface of text using the font family utilities
