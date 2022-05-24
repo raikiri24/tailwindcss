@@ -101,6 +101,11 @@ You can control the typeface of text using the font family utilities
 ```
 
 > CHECK `Typography/font-family.html` to see the result.
+> Always run this command in your terminal before checking your page.
+
+```bash
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
 
 Applyying conditionally
 
@@ -113,3 +118,17 @@ Tailwind lets you conditionally apply utility classes in different states using 
       Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-SANS)
     </p>
 ```
+
+For a complete list of all available state modifiers, check out the [Hover, Focus, & Other States documentation](https://tailwindcss.com/docs/hover-focus-and-other-states).
+
+Breakpoints and media queries
+You can also use variant modifiers to target media queries like responsive breakpoints, dark mode, prefers-reduced-motion, and more. For example, use md:font-serif to apply the font-serif utility at only medium screen sizes and above.
+
+```bash
+<p class="font-sans md:font-serif">
+
+  <!-- ... -->
+</p>
+```
+
+To learn more, check out the documentation on [Responsive Design](https://tailwindcss.com/docs/responsive-design), [Dark Mode](https://tailwindcss.com/docs/dark-mode) and [other media query modifiers](https://tailwindcss.com/docs/hover-focus-and-other-states#media-queries).
