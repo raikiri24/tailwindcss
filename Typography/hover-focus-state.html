@@ -8,13 +8,62 @@
     <title>Hover Focus and other State</title>
   </head>
   <body>
-    <p class="font-sans hover:font-mono">
+    <!-- FONT FAMILY -->
+    <h1 class="font-bold text-3xl">FONT FAMILY HOVER,FOCUS and OTHER STATE</h1>
+
+    <p class="font-sans hover:font-mono mt-7">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. (FONT-SANS)
     </p>
+
     <input
       type="text"
-      class="font-sans focus:font-mono border-4 w-56"
-      placeholder="Click here to see the changes"
+      class="font-sans focus:font-mono border-4 w-56 mt-7"
+      placeholder="Click me!"
+    />
+
+    <!-- FONT SIZE HOVER, FOCUS AND OTHER STATE -->
+    <h1 class="mt-7 font-bold text-3xl">
+      FONT SIZE HOVER,FOCUS and OTHER STATE
+    </h1>
+    <p class="text-sm hover:text-xl mt-7">HOVER ME!</p>
+    <input
+      class="text-sm focus:text-8xl mt-7 border-4 border-black"
+      placeholder="Click me!"
+    />
+
+    <!-- FONT SMOOTHING HOVER, FOCUS AND OTHER STATE -->
+    <h1 class="mt-7 font-bold text-3xl">
+      FONT SMOOTHING HOVER,FOCUS and OTHER STATE
+    </h1>
+    <p class="antialiased hover:subpixel-antialiased mt-7">HOVER ME!</p>
+    <input
+      class="subpixel-antialiased hover:antialiased mt-7 border-4 border-black"
+      placeholder="Click me!"
+    />
+
+    <!-- FONT STYLE HOVER,FOCUS and OTHER STATE -->
+    <h1 class="mt-7 font-bold text-3xl">
+      FONT STYLE HOVER,FOCUS and OTHER STATE
+    </h1>
+    <p class="italic hover:not-italic mt-7">HOVER ME!</p>
+    <input
+      class="not-italic hover:italic mt-7 border-4 border-black"
+      placeholder="Click me!"
+    />
+
+    <!-- FONT WEIGHT HOVER,FOCUS and OTHER STATE -->
+    <h1 class="mt-7 font-bold text-3xl">
+      FONT WEIGHT HOVER,FOCUS and OTHER STATE
+    </h1>
+    <br />
+    <p class="font-bold hover:font-thin">Hover me!</p>
+    <br />
+    <input
+      type="text"
+      name=""
+      id=""
+      class="border-4 border-black font-normal focus:font-extrabold"
+      placeholder="Click me!"
     />
   </body>
 </html>
