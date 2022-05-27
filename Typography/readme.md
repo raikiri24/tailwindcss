@@ -1,11 +1,7 @@
 #### Typography
 
-- [Font Family](#font-family)
-- [Font Family Hover, focus, and other states](#font-family-hover-focus-states)
-- [Font Size](#font-size)
-- [Font Size Hover, focus, and other states](#font-size-hover-focus)
-- [Font Smoothing](#font-smoothing)
-- [Font Smoothing Hover, focus, and other states](#font-smoothing-hover-focus-states)
-- [Font Style](#font-style)
-- [Font Style Hover, focus and other states](#font-style-hover-focus-states)
-- [Font Weight](#font-weight)
+- [Font Family](https://github.com/raikiri24/tailwindcss/blob/main/Typography/01-font-family/)
+- [Font Size](https://github.com/raikiri24/tailwindcss/tree/main/Typography/02-font-size)
+- [Font Style](https://github.com/raikiri24/tailwindcss/tree/main/Typography/03-font-style)
+- [Font Smoothing](https://github.com/raikiri24/tailwindcss/tree/main/Typography/04-font-smoothing)
+- [Font Weight](https://github.com/raikiri24/tailwindcss/tree/main/Typography/05-font-weight)
